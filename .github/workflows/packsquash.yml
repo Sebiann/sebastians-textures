@@ -27,10 +27,15 @@ jobs:
       - name: Calculate SHA1
         run: |
           echo "PACK_SHA1=$(sha1sum /tmp/Seb-RP.zip | cut --delimiter " " --fields 1)" >> "$GITHUB_ENV"
+      - name: Get last commit message
+        run: |
+          echo "PACK_MSG=$(git log -1 --pretty=%B)" >> "$GITHUB_ENV"
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
-          body: "SHA1: ${{ env.PACK_SHA1 }}"
+          body: |
+            SHA1: ${{ env.PACK_SHA1 }}
+            ${{ env.PACK_MSG }}
           tag_name: ${{ github.ref_name }}-v${{ github.run_number }}
           files: /tmp/Seb-RP.zip
           
