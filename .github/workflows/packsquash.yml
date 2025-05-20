@@ -31,6 +31,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           body: "SHA1: ${{ env.PACK_SHA1 }}"
-          tag_name: ${{GITHUB_REF_NAME}}-v${{ github.run_number }}
+          tag_name: ${{ github.ref_name }}-v${{ github.run_number }}
           files: /tmp/Seb-RP.zip
           
