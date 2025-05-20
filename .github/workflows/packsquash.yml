@@ -30,7 +30,7 @@ jobs:
       - name: Tag and create release
         uses: softprops/action-gh-release@v2
         with:
-          description: "SHA1: ${{ env.PACK_SHA1 }}"
-          tag_name: master-v${{ github.run_number }}
+          body: "SHA1: ${{ env.PACK_SHA1 }}"
+          tag_name: ${{GITHUB_REF_NAME}}-v${{ github.run_number }}
           files: /tmp/Seb-RP.zip
           
