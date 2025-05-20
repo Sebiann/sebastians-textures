@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 55,
+    "description": "Sebastian's changes to the default textures",
+    "supported_formats": {
+      "min_inclusive": 55,
+      "max_inclusive": 999
+    }
+  }
+}
