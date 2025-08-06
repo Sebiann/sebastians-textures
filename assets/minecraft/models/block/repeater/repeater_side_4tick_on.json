@@ -1,0 +1,7 @@
+{
+    "credit": "Metamilo",
+    "parent": "block/repeater/repeater_side_4tick_parent",
+    "textures": {
+        "side": "block/repeater/side_on"
+    }
+}

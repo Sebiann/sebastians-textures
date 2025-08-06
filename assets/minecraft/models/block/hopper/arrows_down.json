@@ -1,0 +1,7 @@
+{
+    "credit": "Metamilo",
+    "parent": "block/hopper/arrows_down_parent",
+    "textures": {
+        "side": "block/hopper/down"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "credit": "Metamilo",
+    "parent": "block/leaves/leaves_parent",
+    "textures": {
+        "num": "block/leaves/3"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "credit": "Metamilo",
+  "parent": "minecraft:block/orientable_vertical",
+  "textures": {
+    "front": "block/dropper_front_vertical",
+    "side": "block/furnace_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "credit": "Metamilo",
+    "parent": "block/piston/piston_parent",
+    "textures": {
+        "back": "block/piston/sticky_off",
+        "side": "block/piston/sticky_side_off"
+    }
+}

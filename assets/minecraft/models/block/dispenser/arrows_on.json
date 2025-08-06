@@ -1,0 +1,10 @@
+{
+	"credit": "Metamilo",
+    "parent": "block/dispenser/side_parent",
+    "textures": {
+		"face": "block/dispenser/face_on",
+		"side": "block/dispenser/arrow_side_on",
+		"back": "block/dispenser/back_on",
+		"top": "block/dispenser/arrow_top_on"
+	}
+}

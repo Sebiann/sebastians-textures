@@ -1,0 +1,55 @@
+{
+	"credit": "Metamilo. Made with Blockbench",
+	"texture_size": [12, 12],
+	"elements": [
+		{
+			"name": "left",
+			"from": [-0.1, 11, 6],
+			"to": [2.01, 15, 10],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [13.99, 11, 6],
+			"to": [16.01, 15, 10],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [3.75, 9, 3.75],
+			"to": [12.25, 10, 12.25],
+			"faces": {
+				"north": {"uv": [8.72727, 7.27273, 10.18182, 8.72727], "texture": "#side"},
+				"east": {"uv": [8.72727, 7.27273, 10.18182, 8.72727], "texture": "#side"},
+				"south": {"uv": [8.72727, 7.27273, 10.18182, 8.72727], "texture": "#side"},
+				"west": {"uv": [8.72727, 7.27273, 10.18182, 8.72727], "texture": "#side"},
+				"up": {"uv": [8.72727, 7.27273, 10.18182, 8.72727], "texture": "#side"},
+				"down": {"uv": [8.72727, 7.27273, 10.18182, 8.72727], "texture": "#side"}
+			}
+		},
+		{
+			"name": "front",
+			"from": [6, 11, -0.01],
+			"to": [10, 15, 2.01],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"name": "back",
+			"from": [6, 11, 13.99],
+			"to": [10, 15, 16.01],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		}
+	]
+}

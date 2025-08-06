@@ -1,0 +1,7 @@
+{
+    "credit": "Metamilo",
+    "parent": "block/composter/fill_level_parent",
+    "textures": {
+        "front": "block/composter/fill4"
+    }
+}
